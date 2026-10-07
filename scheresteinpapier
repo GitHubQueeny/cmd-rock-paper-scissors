@@ -131,7 +131,7 @@ echo 2. Stein
 echo 3. Papier                                             
 echo/                                                       
 
-%SystemRoot%\System32\choice.exe /c 123 /n /m "Bitte w‰hlen Sie eine Zahl (1/2/3): "
+%SystemRoot%\System32\choice.exe /c 123 /n /m "Bitte w√§hlen Sie eine Zahl (1/2/3): "
 set Userwahl=%errorlevel%
 set /a spiele+=1
 
